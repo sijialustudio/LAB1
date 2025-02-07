@@ -1,0 +1,211 @@
+[gd_scene load_steps=7 format=3 uid="uid://bqe3lnu28etni"]
+
+[ext_resource type="Texture2D" uid="uid://bvgc8jf8fddsl" path="res://images/pngimg.com - minions_PNG63.png" id="1_5hlqf"]
+[ext_resource type="Script" path="res://hidden.gd" id="2_ypvrm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7kg1v"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gmmfu"]
+load_path = "res://.godot/imported/pngimg.com - minions_PNG63.png-fc26d7e7129ea45ffdd8521552b779f2.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hi0wt"]
+load_path = "res://.godot/imported/pngimg.com - minions_PNG63.png-fc26d7e7129ea45ffdd8521552b779f2.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_63un7"]
+size = Vector2(572.375, 1000.76)
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D"]
+position = Vector2(223, 155)
+scale = Vector2(0.165222, 0.164167)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="."]
+position = Vector2(756.56, 201.015)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="."]
+position = Vector2(-659.72, 986.802)
+scale = Vector2(0.706517, 0.69122)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng65" type="Sprite2D" parent="."]
+position = Vector2(1767.32, 48.731)
+scale = Vector2(0.876875, 0.808742)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65"]
+material = SubResource("ShaderMaterial_7kg1v")
+position = Vector2(756.56, 201.015)
+scale = Vector2(0.524085, 0.425009)
+texture = SubResource("CompressedTexture2D_gmmfu")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="Pngimg_com-MinionsPng65"]
+position = Vector2(121.25, 140.5)
+scale = Vector2(0.165222, 0.164167)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng65" type="Sprite2D" parent="Pngimg_com-MinionsPng65"]
+position = Vector2(1808.41, -0.00012207)
+scale = Vector2(1.02537, 1.01882)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(756.56, 201.015)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(121.25, 140.5)
+scale = Vector2(0.165222, 0.164167)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng65" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(-2711.94, 1581.53)
+scale = Vector2(0.672757, 0.668462)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(756.56, 201.015)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(121.25, 140.5)
+scale = Vector2(0.165222, 0.164167)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng65" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+texture_repeat = 3
+position = Vector2(2280.04, -76.628)
+scale = Vector2(1.09363, 1.08664)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+modulate = Color(0.36504, 0.186214, 0.195691, 1)
+self_modulate = Color(0.464153, 0.915924, 0.366391, 1)
+position = Vector2(823.438, 407.103)
+scale = Vector2(0.524085, 0.425009)
+texture = SubResource("CompressedTexture2D_hi0wt")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Area2D" type="Area2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(17.4576, 95.7867)
+script = ExtResource("2_ypvrm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63/Area2D"]
+visible = false
+position = Vector2(-24.3203, 2.5)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_63un7")
+debug_color = Color(0.924052, 0.333952, 0.726606, 0.42)
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(-54.8957, 1445.21)
+scale = Vector2(1.02575, 1.0192)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng65" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+texture_repeat = 3
+position = Vector2(2280.04, -76.628)
+scale = Vector2(1.09363, 1.08664)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(756.56, 201.015)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng64" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65"]
+position = Vector2(121.25, 140.5)
+scale = Vector2(0.165222, 0.164167)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64"]
+position = Vector2(868.18, 208.276)
+scale = Vector2(0.524085, 0.425009)
+texture = ExtResource("1_5hlqf")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng65/Pngimg_com-MinionsPng64/Pngimg_com-MinionsPng63"]
+position = Vector2(357, 409)
+scale = Vector2(0.524085, 0.524085)
+texture = ExtResource("1_5hlqf")

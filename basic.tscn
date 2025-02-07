@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcrup5subpi7l"]
+
+[ext_resource type="Texture2D" uid="uid://bd0s6s8h72cac" path="res://images/pngimg.com - minions_PNG35.png" id="1_2bump"]
+[ext_resource type="Texture2D" uid="uid://bvgc8jf8fddsl" path="res://images/pngimg.com - minions_PNG63.png" id="2_j35oq"]
+[ext_resource type="Texture2D" uid="uid://k73in4l2axcy" path="res://images/pngimg.com - minions_PNG86.png" id="3_g5rpb"]
+[ext_resource type="Script" path="res://pngimg_com_minions_png_63.gd" id="3_pr4nf"]
+[ext_resource type="PackedScene" uid="uid://bqe3lnu28etni" path="res://lab1.1.tscn" id="5_km6d7"]
+
+[node name="Pngimg_com-MinionsPng35" type="Sprite2D"]
+position = Vector2(167, 167)
+scale = Vector2(0.482456, 0.482456)
+texture = ExtResource("1_2bump")
+
+[node name="Pngimg_com-MinionsPng63" type="Sprite2D" parent="."]
+position = Vector2(843.6, 619.746)
+scale = Vector2(0.35423, 0.35423)
+texture = ExtResource("2_j35oq")
+script = ExtResource("3_pr4nf")
+
+[node name="Pngimg_com-MinionsPng86" type="Sprite2D" parent="."]
+position = Vector2(1419.82, 281.891)
+texture = ExtResource("3_g5rpb")
+
+[node name="Pngimg_com-MinionsPng64" parent="." instance=ExtResource("5_km6d7")]
+visible = false
+position = Vector2(561.709, -62.1818)
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Pngimg_com-MinionsPng65" parent="." instance=ExtResource("5_km6d7")]
